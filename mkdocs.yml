@@ -8,8 +8,8 @@ plugins:
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/logo.scrak.small.png
-  favicon: assets/logo.scrak.small.png
+  # logo: assets/logo.scrak.small.png
+  # favicon: assets/logo.scrak.small.png
   icon:
     repo: fontawesome/brands/github
   palette:
