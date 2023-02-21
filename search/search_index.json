@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"About","text":"<p>3 modes</p> <p>basic client</p> <p>agent client</p> <p>optimization server</p>"}]}
