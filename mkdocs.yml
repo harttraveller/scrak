@@ -1,0 +1,54 @@
+site_name: scrak
+repo_url: https://github.com/harttraveller/scrak
+repo_name: harttraveller/scrak
+
+plugins:
+- search
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/logo.scrak.small.png
+  favicon: assets/logo.scrak.small.png
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    scheme: slate
+    primary: black
+    accent: orange
+  features:
+  - search.suggest
+  - search.share
+  - content.code.copy
+  - content.code.annotate
+
+extra_css:
+- stylesheets/extra.css
+
+markdown_extensions:
+- md_in_html
+- admonition
+- pymdownx.details
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.superfences
+- pymdownx.highlight:
+    anchor_linenums: true
+    use_pygments: true
+- pymdownx.tasklist:
+    custom_checkbox: true
+- pymdownx.tabbed:
+    alternate_style: true
+
+nav:
+- About: "index.md"
+- Setup: "setup.md"
+- Basic: "basic.md"
+- Design: "design.md"
+- Agents: "agents.md"
+- Clients:
+  - BaseClient: "client.base.md"
+  - AgentClient: "client.agent.md"
+- Instances:
+  - AgentInstance: "instance.agent.md"
+  - SpiderInstance: "instance.spider.md"
